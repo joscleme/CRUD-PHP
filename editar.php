@@ -58,11 +58,11 @@ if (isset($_POST['editar'])) {
 <form method="post">
 
 <br>
-Nombre: <input type="text" name="nombre_editado" value="<?php echo $nombre ?>">
+Nombre: <input type="text" name="nombre_editado" value="<?php echo $nombre; ?>">
 <br>
-Apellidos: <input type="text" name="apellidos_editado" value="<?php echo $apellidos ?>">
+Apellidos: <input type="text" name="apellidos_editado" value="<?php echo $apellidos; ?>">
 <br>
-Edad: <input type="number" name="edad_editado" value="<?php echo $edad ?>">
+Edad: <input type="number" name="edad_editado" value="<?php echo $edad; ?>">
 <br>
 <button type="submit" class="btn btn-warning" name="editar">Editar</button>
 
